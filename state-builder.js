@@ -1,6 +1,6 @@
 /*global console */
 angular.module('ui.router.builder', ['ui.router'])
-.provider('$stateBuilder', function ($stateProvider, $urlRouterProvider) {
+.provider('$stateBuilder', ['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
   'use strict';
 
   var self = this;
@@ -139,4 +139,4 @@ angular.module('ui.router.builder', ['ui.router'])
   this.state = function (name, options) {
     return stateBuilder().state(name, options);
   };
-});
+}]);
