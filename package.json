@@ -1,6 +1,6 @@
 {
   "name": "angular-state-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "State Builder for angular-ui-router",
   "main": "state-builder.js",
   "scripts": {
