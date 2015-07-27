@@ -1,0 +1,20 @@
+{
+  "name": "angular-state-builder",
+  "version": "0.0.1",
+  "description": "State Builder for angular-ui-router",
+  "main": "state-builder.js",
+  "scripts": {
+    "test": "jshint -c .jshintrc state-builder.js",
+    "min": "uglifyjs state-builder.js -mc > state-builder.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdiehl/angular-state-builder.git"
+  },
+  "author": "Jonathan Diehl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdiehl/angular-state-builder/issues"
+  },
+  "homepage": "https://github.com/jdiehl/angular-state-builder#readme"
+}
