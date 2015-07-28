@@ -37,14 +37,50 @@ The resulting states are:
 
 ```json
 {
-  "app": {url: "", abstract: true, controller: "app", templateUrl: "app/states/app.html", resolve: { "session": Object }},
-  "app.home": {url: "/home", controller: "app.home", templateUrl: "app/states/app.home.html"},
-  "app.about": {url: "/about", controller: "app.about", templateUrl: "app/states/app.about.html"},
-  "user": {abstract: true, url: "/user", controller: "user", templateUrl: "app/states/user.html"},
-  "user.profile": {url: "/profile", controller: "user.profile", templateUrl: "app/states/user.profile.html"},
-  "user.friends": {abstract: true, url: "/friends", controller: "user.friends", templateUrl: "app/states/user.friends.html"},
-  "user.friends.list": {url: "", controller: "user.friends.list", templateUrl: "app/states/user.friends.list.html"},
-  "user.friends.show": {url: "/:id", controller: "user.friends.show", templateUrl: "app/states/user.friends.show.html"}
+  "app": {
+    "url": "",
+    "abstract": true,
+    "controller": "app",
+    "templateUrl": "app/states/app.html",
+    "resolve": {}
+  },
+  "app.home": {
+    "url": "/home",
+    "controller": "app.home",
+    "templateUrl": "app/states/app.home.html"
+  },
+  "app.about": {
+    "url": "/about",
+    "controller": "app.about",
+    "templateUrl": "app/states/app.about.html"
+  },
+  "user": {
+    "abstract": true,
+    "url": "/user",
+    "controller": "user",
+    "templateUrl": "app/states/user.html"
+  },
+  "user.profile": {
+    "url": "/profile",
+    "controller": "user.profile",
+    "templateUrl": "app/states/user.profile.html"
+  },
+  "user.friends": {
+    "abstract": true,
+    "url": "/friends",
+    "controller": "user.friends",
+    "templateUrl": "app/states/user.friends.html"
+  },
+  "user.friends.list": {
+    "url": "",
+    "controller": "user.friends.list",
+    "templateUrl": "app/states/user.friends.list.html"
+  },
+  "user.friends.show": {
+    "url": "/:id",
+    "controller": "user.friends.show",
+    "templateUrl": "app/states/user.friends.show.html"
+  }
 }
 ```
 
